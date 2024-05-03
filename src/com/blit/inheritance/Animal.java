@@ -20,8 +20,8 @@ public class Animal {
         System.out.println(this.name + " is walking");
     }
 
-    public void talk(){
-        System.out.println(this.name + "can talk");
+    public void makeSound(){
+        System.out.println(this.name + "can make sound");
     }
 
 }

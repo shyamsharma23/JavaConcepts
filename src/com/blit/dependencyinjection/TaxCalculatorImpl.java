@@ -4,7 +4,7 @@ public class TaxCalculatorImpl implements TaxCalculator{
 
     private double income;
 
-    TaxCalculatorImpl(double income){
+    TaxCalculatorImpl(double income, double extraTax){
         this.income = income;
 
     }

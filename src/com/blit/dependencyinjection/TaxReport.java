@@ -3,6 +3,7 @@ package com.blit.dependencyinjection;
 public class TaxReport {
     private TaxCalculator taxCalculator;
 
+
     TaxReport(TaxCalculator taxCalculator){
 
         this.taxCalculator = taxCalculator;
